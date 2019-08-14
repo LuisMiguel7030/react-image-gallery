@@ -1,0 +1,52 @@
+.gallery {
+    //width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &--card {
+        margin: 2px;
+        flex-grow: 1;
+
+        &:nth-child(1) {
+            width: 400px;
+        }
+
+        &:nth-child(2) {
+            width: 199px;
+        }
+
+        &:nth-child(3) {
+            width: 400px;
+        }
+
+        &:nth-child(4) {
+            width: 213px;
+        }
+
+        &:nth-child(5) {
+            width: 199px;
+        }
+
+        &:nth-child(6) {
+            width: 395px;
+        }
+
+        &:nth-child(7) {
+            width: 400px;
+        }
+
+        &:nth-child(8) {
+            width: 199px;
+        }
+    }
+
+    &--content {
+        display: flex;
+        flex-wrap: wrap;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
